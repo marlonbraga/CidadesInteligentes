@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CidadesInteligentes.Dominio.Interfaces
 {
-    internal interface IEstacaoRecarga : IBase<EstacaoRecarga>
+    public interface IEstacaoRecarga : IBase<EstacaoRecarga>
     {
         //Obtém os métodos de IBase
         EstacaoRecarga RecuperarPorNome(string nome);

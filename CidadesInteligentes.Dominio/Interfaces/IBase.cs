@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CidadesInteligentes.Dominio.Interfaces
 {
-    internal interface IBase<T> where T : class
+    public interface IBase<T> where T : class
     {
         //Adicionar (C)
         void Adicionar(T obj);
