@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CidadesInteligentes.Infra.Dados.Config
 {
-    internal class EstacaoRecargaDbContext : DbContext
+    public class EstacaoRecargaDbContext : DbContext
     {
         public DbSet<EstacaoRecarga> EstacoesRecarga { get; set; }
 

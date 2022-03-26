@@ -15,9 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Dados", "4.1 - Dados"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Transversal", "4.2 - Transversal", "{24374D85-2C9C-4F5E-82B2-B7749666A0F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadesInteligentes.Dominio", "CidadesInteligentes.Dominio\CidadesInteligentes.Dominio.csproj", "{93B0C969-518E-4E47-BBF0-894E50978956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadesInteligentes.Dominio", "CidadesInteligentes.Dominio\CidadesInteligentes.Dominio.csproj", "{93B0C969-518E-4E47-BBF0-894E50978956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadesInteligentes.Infra.Dados", "CidadesInteligentes.Infra.Dados\CidadesInteligentes.Infra.Dados.csproj", "{9644B435-834F-42C1-B2D3-E272A9B4BE9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadesInteligentes.Infra.Dados", "CidadesInteligentes.Infra.Dados\CidadesInteligentes.Infra.Dados.csproj", "{9644B435-834F-42C1-B2D3-E272A9B4BE9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadesInteligentes.MVC", "CidadesInteligentes.MVC\CidadesInteligentes.MVC.csproj", "{18B35DE6-D364-43DA-859C-D80C6C129DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadesInteligentes.Aplicacao", "CidadesInteligentes.Aplicacao\CidadesInteligentes.Aplicacao.csproj", "{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{9644B435-834F-42C1-B2D3-E272A9B4BE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9644B435-834F-42C1-B2D3-E272A9B4BE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9644B435-834F-42C1-B2D3-E272A9B4BE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B35DE6-D364-43DA-859C-D80C6C129DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B35DE6-D364-43DA-859C-D80C6C129DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B35DE6-D364-43DA-859C-D80C6C129DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B35DE6-D364-43DA-859C-D80C6C129DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,8 @@ Global
 		{24374D85-2C9C-4F5E-82B2-B7749666A0F3} = {C05CBFD1-68DA-4397-AC98-B202B748E97A}
 		{93B0C969-518E-4E47-BBF0-894E50978956} = {6473CBBE-BD64-4C35-BA04-D45C3E7DB7E3}
 		{9644B435-834F-42C1-B2D3-E272A9B4BE9F} = {53EAB6C7-780C-4B9C-8A77-AE3EC886BF00}
+		{18B35DE6-D364-43DA-859C-D80C6C129DFD} = {0A976A93-826B-4408-9ED7-28397D682125}
+		{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649} = {ADEFEB2E-5C53-4389-9B36-503142B8EDBF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A1C74C4-EE7B-4674-B6ED-F6FE5A12E281}
