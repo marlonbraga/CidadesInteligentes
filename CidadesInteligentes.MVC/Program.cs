@@ -1,7 +1,9 @@
+using AutoMapper;
 using CidadesInteligentes.Aplicacao.Aplicacoes;
 using CidadesInteligentes.Aplicacao.Interfaces;
 using CidadesInteligentes.Dominio.Interfaces;
 using CidadesInteligentes.Infra.Dados.Repositorio;
+using CidadesInteligentes.MVC.Automapper;
 
 var builder = WebApplication.CreateBuilder(args);
 

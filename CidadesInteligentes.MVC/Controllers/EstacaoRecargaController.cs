@@ -16,26 +16,22 @@ namespace CidadesInteligentes.MVC.Controllers
     public class EstacaoRecargaController : Controller
     {
         private readonly IEstacoesRecargaApp _estacaoRecargaApp;
-        private readonly IMapper _mapper;
 
-        public EstacaoRecargaController(IEstacoesRecargaApp estacaoRecargaApp, IMapper mapper)
+        public EstacaoRecargaController(IEstacoesRecargaApp estacaoRecargaApp)
         {
             _estacaoRecargaApp = estacaoRecargaApp;
-            _mapper = mapper;
-
         }
 
         // GET: EstacaoRecarga
         public ActionResult Index()
         {
-            var estacoesDeRecarga = _mapper.Map<EstacaoRecargaViewModel>(_estacaoRecargaApp.Listar());
-            return View(estacoesDeRecarga);
+            return View(_estacaoRecargaApp.Listar());
         }
 
         // GET: EstacaoRecarga/Details/5
         public ActionResult Details(Guid id)
         {
-            var estacaoRecarga = _mapper.Map<EstacaoRecargaViewModel>(_estacaoRecargaApp.RecuperarPorId(id));
+            var estacaoRecarga = _estacaoRecargaApp.RecuperarPorId(id);
             return View(estacaoRecarga);
         }
 
@@ -77,7 +73,6 @@ namespace CidadesInteligentes.MVC.Controllers
         {
             try
             {
-                // TODO: Add update logic here
                 _estacaoRecargaApp.Atualizar(estacaoRecarga);
                 return RedirectToAction(nameof(Index));
             }
