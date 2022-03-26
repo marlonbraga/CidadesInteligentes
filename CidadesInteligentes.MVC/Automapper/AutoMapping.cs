@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using CidadesInteligentes.Dominio.Entidades;
 using CidadesInteligentes.MVC.Models;
-using System.Collections.Generic;
 
 namespace CidadesInteligentes.MVC.Automapper
 {

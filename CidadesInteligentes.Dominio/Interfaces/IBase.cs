@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CidadesInteligentes.Dominio.Interfaces
+﻿namespace CidadesInteligentes.Dominio.Interfaces
 {
     public interface IBase<T> where T : class
     {

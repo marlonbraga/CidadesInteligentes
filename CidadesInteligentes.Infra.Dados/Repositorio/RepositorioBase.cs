@@ -1,5 +1,4 @@
-﻿using CidadesInteligentes.Dominio.Entidades;
-using CidadesInteligentes.Dominio.Interfaces;
+﻿using CidadesInteligentes.Dominio.Interfaces;
 using CidadesInteligentes.Infra.Dados.Config;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,7 +15,8 @@ namespace CidadesInteligentes.Infra.Dados.Repositorio
 
         public void Adicionar(T obj)
         {
-            using (var db = new EstacaoRecargaDbContext(_optionsBuilder)) {
+            using (var db = new EstacaoRecargaDbContext(_optionsBuilder))
+            {
                 db.Set<T>().Add(obj);
                 db.SaveChanges();
             }

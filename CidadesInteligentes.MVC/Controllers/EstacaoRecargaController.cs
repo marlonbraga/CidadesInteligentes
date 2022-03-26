@@ -1,15 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CidadesInteligentes.Aplicacao.Interfaces;
-using AutoMapper;
+﻿using CidadesInteligentes.Aplicacao.Interfaces;
 using CidadesInteligentes.Dominio.Entidades;
-using CidadesInteligentes.MVC.Models;
-using Microsoft.AspNetCore.Http;
-using CidadesInteligentes.Infra.Dados.Config;
-using CidadesInteligentes.Aplicacao.Aplicacoes;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CidadesInteligentes.MVC.Controllers
 {

@@ -1,9 +1,6 @@
 ﻿using CidadesInteligentes.Aplicacao.Interfaces;
 using CidadesInteligentes.Dominio.Entidades;
 using CidadesInteligentes.Dominio.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CidadesInteligentes.Aplicacao.Aplicacoes
 {
