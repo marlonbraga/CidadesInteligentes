@@ -1,14 +1,7 @@
-using CidadesInteligentes.Aplicacao.Aplicacoes;
-using CidadesInteligentes.Aplicacao.Interfaces;
-using CidadesInteligentes.Dominio.Interfaces;
-using CidadesInteligentes.Infra.Dados.Repositorio;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IEstacoesRecargaApp, EstacoesRecargaApp>();
-builder.Services.AddSingleton<IEstacaoRecarga, EstacaoRecargaRepositorio>();
 
 var app = builder.Build();
 

@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadesInteligentes.Dominio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadesInteligentes.Infra.Dados", "CidadesInteligentes.Infra.Dados\CidadesInteligentes.Infra.Dados.csproj", "{9644B435-834F-42C1-B2D3-E272A9B4BE9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadesInteligentes.MVC", "CidadesInteligentes.MVC\CidadesInteligentes.MVC.csproj", "{18B35DE6-D364-43DA-859C-D80C6C129DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadesInteligentes.MVC", "CidadesInteligentes.MVC\CidadesInteligentes.MVC.csproj", "{18B35DE6-D364-43DA-859C-D80C6C129DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadesInteligentes.Aplicacao", "CidadesInteligentes.Aplicacao\CidadesInteligentes.Aplicacao.csproj", "{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadesInteligentes.Aplicacao", "CidadesInteligentes.Aplicacao\CidadesInteligentes.Aplicacao.csproj", "{0417EB36-3FF3-4CA4-A7E3-7F6EC3C73649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
